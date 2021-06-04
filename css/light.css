@@ -1,0 +1,92 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.menu {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+header {
+    background-color: rgb(255, 255, 255);
+    margin-top: 0px;
+    width: 100%;
+}
+button {
+    outline: none; /* Для синий ободки */
+    border: 0;
+    background: transparent;
+    padding: 10px;
+    font-size: 22px;
+}
+.logo {
+    color: #eb4034;
+    font-family: arial;
+    font-size: 2em;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+button:hover {
+    background-color: #b3332a;
+}
+.ul{
+    display: flex;
+    padding: 0;
+    justify-content: flex-end;
+}
+nav {
+    background-color: #eb4034;
+}
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+li {
+    list-style: none;
+    padding: 10px;
+    font-size: 22px;
+}
+.heading {
+    background-color: #f6f2f2;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    justify-content: center;
+}
+li:hover{
+ background-color: #b3332a;
+}
+.footer {
+    background-color: #d8d4d4;
+    margin-bottom: 0%;
+}
+#slider {
+    margin: 0 auto;
+    list-style: none;
+    position: relative;
+    width: 600px;
+    height: 420px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  #slider img {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    max-width:600px;
+    max-height:400px;
+  }
+.about {
+    display: flex;
+    justify-content: center;
+}
