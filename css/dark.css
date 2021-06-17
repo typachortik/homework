@@ -1,13 +1,11 @@
 body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
+    font-family: 'Open Sans', sans-serif;
     color: rgb(255, 255, 255);
-    background-color: rgb(36, 36, 36);
+    background-color: rgb(27, 27, 27);
     transition: 0.5s;
 }
 .logo {
-    color: #bd352b;
+    color: #b12116;
     font-family: arial;
     font-size: 2em;
     font-weight: 700;
@@ -21,7 +19,7 @@ body {
     justify-content: flex-end;
 }
 nav {
-    background-color: #bd352b;
+    background-color: #b12116;
 }
 a {
     color: rgb(255, 255, 255);
@@ -32,30 +30,22 @@ li {
     padding: 10px;
     font-size: 22px;
 }
-button {
-    border: 0;
-    background: transparent;
-    padding: 10px;
-    font-size: 22px;
-}
-button:hover {
-    background-color: #b3332a;
-}
 .heading {
-    background-color: rgb(53, 53, 53);
+    background-color: rgb(70, 70, 70);
     display: grid;
-    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-columns: 25% 25% 25% 25%;
     justify-content: center;
 }
 li:hover{
- background-color: #b3332a;
+ background-color: rgb(119, 35, 29);
  transition: 0.5s;
 }
 .footer {
-    background: rgb(59, 59, 59);
+    background: rgb(70, 70, 70);
     margin-bottom: 0%;
     position: fixed; 
-    left: 0; bottom: 0; 
+    left: 0;
+    bottom: 0; 
     padding: 10px; 
     color: rgb(255, 255, 255); 
     width: 100%; 
@@ -66,9 +56,14 @@ li:hover{
     font-size: 25px;
     padding: 10px;
 }
-img {
+.img {
     border-radius: 20px;
-    margin-left: 50px;
+    margin-left: 30%;
+    width: 40%;
+}
+.about-img {
+    width: 80%;
+    border-radius: 20px;
 }
 .hover-icon:hover {
     background-color: #b9b7b7;
@@ -81,4 +76,30 @@ h1 {
     display: flex;
     justify-content: center;
     font-size: 15px;
+}
+@media (max-width: 900px) {
+    .img {
+        border-radius: 20px;
+        margin-left: 30%;
+        width: 45%;
+    }
+    h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 7px;
+    }
+    li {
+        list-style: none;
+        padding: 10px;
+        font-size: 20px;
+    }
+    .about {
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        padding: 10px;
+    }
+    .about-img {
+        width: 100%;
+    }
 }
