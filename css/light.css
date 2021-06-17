@@ -6,23 +6,8 @@ body {
     background-color: #fff;
     transition: 0.5s;
 }
-.container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-.menu {
-    display: grid;
-    grid-template-columns: 200px 200px 200px;
-}
-header {
-    background-color: rgb(255, 255, 255);
-    margin-top: 0px;
-    width: 100%;
-}
 button {
-    outline: none; /* Для синий ободки */
+    outline: none; 
     border: 0;
     background: transparent;
     padding: 10px;

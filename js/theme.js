@@ -1,9 +1,10 @@
-function switchTheme() {
-    var check = document
-    .getElementById('theme_css')
+document.addEventListener("DOMContentLoaded", function(){
+document.querySelector("#theme").addEventListener("click", function(){
+    let check = document
+    .querySelector("#theme_css")
     .classList[0] === 'light';
   
-    var element = document.getElementById('theme_css');
+    let element = document.querySelector("#theme_css");
   
   
     if (check) {
@@ -15,5 +16,5 @@ function switchTheme() {
      element.classList.remove('dark')
      element.classList.add('light');
     }
-  
-  }
+}); 
+});
